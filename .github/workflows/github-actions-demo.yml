@@ -18,4 +18,5 @@ jobs:
       - run: echo "🍏 This job's status is ${{ job.status }}."
   Build:
     runs-on: ubuntu-latest
-    steps: mvn compile
+    steps: 
+      - run: mvn compile
